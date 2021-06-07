@@ -35,9 +35,7 @@ export default class TodoApp extends Component {
       <div className="todo-container">
         <form className="input-section" onSubmit={this.storeItems}>
           <h1>Todo's</h1>
-          <h4>
-            It's {today.toLocaleString()}
-          </h4>
+          <h4>It's {today.toLocaleString()}</h4>
           <input
             type="textarea"
             value={input}
